@@ -1,4 +1,4 @@
-node("slave_aws") {
+node("slave") {
     stage('Clonacion Repositorio') {
         sh 'ls -ltrh'
         sh 'pwd'
